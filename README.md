@@ -38,6 +38,8 @@ conda install -n py39t pandas
 python3 -m venv ./venv
 # Activate the virtual environment:
 source ./venv/bin/activate
+# windows
+.\venv\Scripts\activate
 # 
 pip3 install -U --user pip && pip3 install rasa
 ```
