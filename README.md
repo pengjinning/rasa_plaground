@@ -40,6 +40,8 @@ python3 -m venv ./venv
 source ./venv/bin/activate
 # windows
 .\venv\Scripts\activate
+#
+pip3 install jieba
 # 
 pip3 install -U --user pip && pip3 install rasa
 ```
