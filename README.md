@@ -42,6 +42,9 @@ source ./venv/bin/activate
 .\venv\Scripts\activate
 #
 pip3 --default-timeout=100 install jieba
+pip3 --default-timeout=100 install transformers
+rasa train nlu
+rasa shell nlu
 # 
 pip3 install -U --user pip && pip3 install rasa
 ```
