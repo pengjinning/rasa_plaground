@@ -41,7 +41,7 @@ source ./venv/bin/activate
 # windows
 .\venv\Scripts\activate
 #
-pip3 install jieba
+pip3 --default-timeout=100 install jieba
 # 
 pip3 install -U --user pip && pip3 install rasa
 ```
